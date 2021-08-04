@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Cronometer from './Components/Cronometer';
+import Header from './Components/Header';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -12,12 +12,10 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <main>
-        <h1>Cronômetro</h1>
-        <section>
-          <Cronometer />
-        </section>
-      </main>
+      <>
+        <Header />
+        
+      </>
     );
   }
 }
